@@ -60,11 +60,11 @@ LDLIBSOPTIONS=
 
 # Build Targets
 .build-conf: ${BUILD_SUBPROJECTS}
-	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/cameraremote12
+	"${MAKE}"  -f nbproject/Makefile-${CND_CONF}.mk ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/cameraremote
 
-${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/cameraremote12: ${OBJECTFILES}
+${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/cameraremote: ${OBJECTFILES}
 	${MKDIR} -p ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}
-	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/cameraremote12 ${OBJECTFILES} ${LDLIBSOPTIONS} -lwiringPi -lpthread -lm
+	${LINK.c} -o ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/cameraremote ${OBJECTFILES} ${LDLIBSOPTIONS} -lwiringPi -lpthread -lm
 
 ${OBJECTDIR}/camera_control.o: camera_control.c 
 	${MKDIR} -p ${OBJECTDIR}
@@ -97,7 +97,7 @@ ${OBJECTDIR}/utility.o: utility.c
 # Clean Targets
 .clean-conf: ${CLEAN_SUBPROJECTS}
 	${RM} -r ${CND_BUILDDIR}/${CND_CONF}
-	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/cameraremote12
+	${RM} ${CND_DISTDIR}/${CND_CONF}/${CND_PLATFORM}/cameraremote
 
 # Subprojects
 .clean-subprojects:

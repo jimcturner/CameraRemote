@@ -31,7 +31,6 @@
                    kind="IMPORTANT_FILES_FOLDER">
       <itemPath>Makefile</itemPath>
     </logicalFolder>
-    <itemPath>iptools2.0.h</itemPath>
   </logicalFolder>
   <sourceRootList>
     <Elem>/Volumes/tchome/usr/local/include</Elem>
@@ -60,8 +59,6 @@
       <item path="camera_control.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="getch.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="iptools2.0.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="iptools2.3.c" ex="false" tool="0" flavor2="0">
       </item>
@@ -97,8 +94,6 @@
       <item path="camera_control.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="getch.c" ex="false" tool="0" flavor2="0">
-      </item>
-      <item path="iptools2.0.h" ex="false" tool="3" flavor2="0">
       </item>
       <item path="iptools2.3.c" ex="false" tool="0" flavor2="0">
       </item>
