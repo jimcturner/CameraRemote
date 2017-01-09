@@ -50,7 +50,7 @@
  * -Upgraded to iptools 2.3
  * -'u' supplied as argument 1 will print the list of startup options
  * 
- * CameraRemote12
+ * CameraRemote 0.12
  * --------------
  * -Removed connectedFlag now part of global _status struct. 
  * Modifed getConnectedFlag() and setConnectedFlag accordingly
@@ -152,7 +152,9 @@
  * 
  * 
  * 
- * 
+ * 9/1/17
+ * ------
+ * Added to git. Created remote repository: ssh://git@bitbucket.org/jimcturner/cameraremote.git
  * 
  * 
  * 
